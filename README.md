@@ -25,6 +25,7 @@ TaskMaster is a lightweight, console-based task scheduling and management applic
 
 # Usage
 
+```bash
 1. Compile the Code
 - g++ main.cpp Task.cpp Scheduler.cpp -o TaskScheduler
 2. Run the Program
