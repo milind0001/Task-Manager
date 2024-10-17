@@ -1,8 +1,8 @@
-#Overview
+# Overview
 
 TaskMaster is a lightweight, console-based task scheduling and management application written in C++. It allows users to add, view, edit, and delete tasks, helping them organize their daily activities effectively. Each task has a title, description, and time, making it easy to keep track of essential tasks and deadlines.
 
-#Key Components
+# Key Components
 
 1. Task Management
 -Users can create tasks with a title, description, and time (in HHformat).
