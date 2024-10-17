@@ -25,19 +25,24 @@ TaskMaster is a lightweight, console-based task scheduling and management applic
 
 # Usage
 
-```bash
 1. Compile the Code
+```bash
 - g++ main.cpp Task.cpp Scheduler.cpp -o TaskScheduler
+```
 2. Run the Program
+```bash
 - .\TaskScheduler.exe
+```
 3. Use the Features
 - Add a Task: Enter task details such as title, description, and time.
 - View Tasks: Display all the tasks with their ID, title, and time.
 - Edit a Task: Modify task details using its ID.
 - Delete a Task: Remove a task using its ID.
 - Exit: Quit the application.
+
+
  
-# Code Structure
+# Code Structure 
 
 1. Main Program (main.cpp)
 - Handles the user input and displays the menu for task management options.
