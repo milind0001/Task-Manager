@@ -1,0 +1,2 @@
+g++ main.cpp Task.cpp Scheduler.cpp -o TaskScheduler
+.\TaskScheduler.exe
