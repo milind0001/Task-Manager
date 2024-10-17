@@ -13,25 +13,31 @@ TaskMaster is a lightweight, console-based task scheduling and management applic
 -Users can delete tasks by their ID, ensuring that irrelevant or completed tasks are removed from the list.
 4. Task Display
 -All tasks are displayed in a clear format with their ID, title, description, and time, making it easy to view and manage tasks at a glance.
-#Platform
+
+# Platform
+
 -Built using C++ with a modular structure (separated into task handling and scheduling management).
 -It is a lightweight console application compatible with any C++-compatible environment.
 
-#Prerequisites
+# Prerequisites
 
-A C++ compiler (like g++ or similar) to compile and run the program.
-#Usage
+-A C++ compiler (like g++ or similar) to compile and run the program.
+
+# Usage
+
 1. Compile the Code
-g++ main.cpp Task.cpp Scheduler.cpp -o TaskScheduler
+-g++ main.cpp Task.cpp Scheduler.cpp -o TaskScheduler
 2. Run the Program
-.\TaskScheduler.exe
+-.\TaskScheduler.exe
 3. Use the Features
 -Add a Task: Enter task details such as title, description, and time.
 -View Tasks: Display all the tasks with their ID, title, and time.
 -Edit a Task: Modify task details using its ID.
 -Delete a Task: Remove a task using its ID.
 -Exit: Quit the application.
-#Code Structure
+ 
+# Code Structure
+
 1. Main Program (main.cpp)
 -Handles the user input and displays the menu for task management options.
 2. Task Class (Task.h / Task.cpp)
